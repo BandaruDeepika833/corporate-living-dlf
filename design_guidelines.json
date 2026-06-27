@@ -1,0 +1,165 @@
+{
+  "theme": "Light",
+  "archetype": "4 (Swiss/Corporate) and 5 (Luxury) blend",
+  "colors": {
+    "primary": "#0E2A47",
+    "secondary": "#FFFFFF",
+    "accent": "#C8A24A",
+    "background": "#F8FAFC",
+    "text": {
+      "main": "#1F2937",
+      "muted": "#4B5563"
+    },
+    "buttons": {
+      "primary": {
+        "bg": "#0E2A47",
+        "text": "#FFFFFF",
+        "hover_bg": "#C8A24A",
+        "hover_text": "#FFFFFF"
+      },
+      "secondary": {
+        "bg": "#FFFFFF",
+        "text": "#0E2A47",
+        "border": "#E5E7EB",
+        "hover_bg": "#F3F4F6",
+        "hover_text": "#0E2A47"
+      }
+    }
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Playfair Display, serif",
+      "body": "Poppins, sans-serif"
+    },
+    "scales": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight leading-tight",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight leading-snug",
+      "h3": "text-xl sm:text-2xl leading-snug",
+      "h4": "text-lg sm:text-xl leading-snug font-semibold",
+      "body": "text-base leading-relaxed",
+      "small": "text-sm leading-normal",
+      "overline": "text-xs uppercase tracking-[0.2em] font-semibold text-[#C8A24A]"
+    },
+    "guidelines": [
+      "Use Playfair Display for all headings to establish a premium, editorial, luxury corporate feel.",
+      "Use Poppins for body copy, form inputs, buttons, and data tables to ensure maximum legibility.",
+      "Avoid centering text by default; use left alignment for body copy and dense info."
+    ]
+  },
+  "spacing_and_layout": {
+    "spacing_scale": "p-1, p-2, p-4, p-6, p-8, p-12, p-16, p-20, p-24, p-32",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-16 sm:py-24 lg:py-32",
+    "grid_strategy": {
+      "marketing_cards": "grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8",
+      "rooms_showcase": "grid-cols-1 lg:grid-cols-12 gap-12",
+      "masonry_gallery": "columns-1 sm:columns-2 lg:columns-3 gap-6"
+    },
+    "guidelines": [
+      "Generous spacing: use p-8 to p-12 for containers with borders.",
+      "Containers must use rounded-xl or rounded-2xl to fit the user request.",
+      "Soft shadows (shadow-lg) to lift elements."
+    ]
+  },
+  "ui_style": {
+    "corners": "rounded-xl to rounded-2xl",
+    "shadows": "shadow-sm for resting state, shadow-xl for hover states (soft ambient shadows)",
+    "glassmorphism": "backdrop-blur-xl bg-white/80 border border-white/20",
+    "borders": "1px solid #E5E7EB (gray-200) for subtle definition",
+    "mood": "Professional, Clean, Bright, Trustworthy, Premium, Corporate, Minimal, Sophisticated."
+  },
+  "animations": {
+    "interactions": [
+      "Button hover: smooth transition to gold (#C8A24A) bg or slight lift.",
+      "Card hover: image zoom (scale-105) combined with shadow elevation.",
+      "Fade Up / Fade Left / Fade Right: Subtle entrance animations using framer-motion (y: 20, opacity: 0 to y: 0, opacity: 1, duration 0.5s)."
+    ],
+    "restrictions": [
+      "No heavy animations. No parallax.",
+      "No excessive bounce effects.",
+      "Keep it professional and fast loading."
+    ]
+  },
+  "components": {
+    "hero": {
+      "overlay": "Very LIGHT navy or white/20 gradient to ensure it feels bright and clean. Text needs sufficient text-shadow for contrast.",
+      "ctas": "3 CTAs: Book Now (Primary), Call (Secondary), WhatsApp (Icon/Secondary)."
+    },
+    "cards": {
+      "lifestyle_cards": "Horizontal layouts, image on one side, text on the other. Card hover effects applied.",
+      "room_cards": "Rooms is the BIGGEST section. Include image sliders per room type, features list, and Book Now CTA.",
+      "pricing_cards": "Elegant tiered design for Twin Sharing (15k-20.5k), Private (29-34.5k), and Front Side Private (30-35.5k). Highlight meal options."
+    },
+    "navigation": {
+      "style": "Sticky, semi-bold nav links, large spacing, luxury feel, glass effect (backdrop-blur-md bg-white/90).",
+      "links": "Visible on desktop. Do not hide all links behind a hamburger menu on desktop viewports."
+    },
+    "floating_buttons": {
+      "position": "fixed bottom-6 right-6 flex flex-col gap-3 z-50",
+      "items": "WhatsApp, Call, Book Visit."
+    },
+    "admin_dashboard": {
+      "style": "Clean, Shadcn UI components, dense table for inquiries, simple login."
+    },
+    "gallery": "Masonry layout with lightbox for viewing larger images.",
+    "reviews": "Google Reviews testimonial cards in a grid or carousel.",
+    "faq": "Accordion component for space saving.",
+    "location": "Large Google Maps embed with address."
+  },
+  "media": {
+    "image_urls": {
+      "hero_exterior": {
+        "url": "https://images.pexels.com/photos/35339499/pexels-photo-35339499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Modern apartment building exterior against a blue sky, used for hero section."
+      },
+      "hero_exterior_alt": {
+        "url": "https://images.pexels.com/photos/18153132/pexels-photo-18153132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Contemporary apartment building with glass balconies."
+      },
+      "room_private": {
+        "url": "https://images.pexels.com/photos/34574606/pexels-photo-34574606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Sophisticated private bedroom with blue accent wall and natural light."
+      },
+      "room_private_alt": {
+        "url": "https://images.pexels.com/photos/6903157/pexels-photo-6903157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Modern bedroom with luminous lamps."
+      },
+      "room_twin": {
+        "url": "https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg",
+        "description": "Elegant twin sharing room with cozy beds."
+      },
+      "room_twin_alt": {
+        "url": "https://images.pexels.com/photos/279805/pexels-photo-279805.jpeg",
+        "description": "Stylish hotel-style twin room."
+      },
+      "amenity_gym": {
+        "url": "https://images.pexels.com/photos/29224211/pexels-photo-29224211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Sleek modern gym interior with geometric lights."
+      },
+      "amenity_dining": {
+        "url": "https://images.unsplash.com/photo-1593136596203-7212b076f4d2",
+        "description": "Modern dining hall with wooden table and chairs."
+      },
+      "amenity_lounge": {
+        "url": "https://images.unsplash.com/photo-1724582586529-62622e50c0b3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBsb3VuZ2UlMjBsaXZpbmclMjBhcmVhfGVufDB8fHx8MTc4MjAxNjYyNXww&ixlib=rb-4.1.0&q=85",
+        "description": "Modern living room/lounge area with large window."
+      }
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure white text on #0E2A47 has a contrast ratio of > 4.5:1. Ensure text over images has dark overlays or text-shadow.",
+    "testing": "All interactive and key informational elements MUST have data-testid attributes (e.g., data-testid='book-now-button', data-testid='room-card')."
+  },
+  "instructions_to_main_agent": [
+    "Install Playfair Display and Poppins fonts (e.g., via next/font or standard import).",
+    "Do not use generic placeholder images. Use the provided high-quality Unsplash/Pexels URLs. Missing categories must use contextual stock imagery, not dummy placeholders.",
+    "Build the UI focusing on a bright, premium corporate look.",
+    "Implement Shadcn UI for standard components like Forms, Tabs, Accordion, and Admin Table.",
+    "For the Room Showcase section, implement an image slider (e.g., Embla Carousel via Shadcn) to display multiple room photos.",
+    "For the Gallery section, use a masonry layout (CSS columns or a library like react-photo-album) with a lightbox functionality.",
+    "Add a fixed floating action bar (WhatsApp, Call, Book Visit) on the bottom right.",
+    "Ensure the hero overlay is VERY LIGHT, letting the building's bright feel shine through while maintaining text legibility (use text-shadow or a localized gradient behind the text).",
+    "Keep animations subtle (framer-motion fade-ups, CSS transition image zoom on hover).",
+    "Create a protected /admin route displaying a simple Shadcn Table of inquiries."
+  ]
+}
