@@ -2,9 +2,9 @@ import { MapPin, Train, Building2, Landmark, ArrowRight } from "lucide-react";
 import { BUSINESS } from "@/lib/api";
 
 const landmarks = [
-  { icon: Building2, title: "Cyber City", text: "~5 minutes drive" },
-  { icon: Train, title: "Rapid Metro", text: "Walking distance" },
-  { icon: Building2, title: "Udyog Vihar", text: "~7 minutes drive" },
+  { icon: Building2, title: "Cyber City", text: "~10-15 minutes drive" },
+  { icon: Train, title: "Rapid Metro", text: "~5 minutes drive" },
+  { icon: Building2, title: "Udyog Vihar", text: "~10-15 minutes drive" },
   { icon: Landmark, title: "Shani Mandir", text: "Right next door" },
 ];
 

@@ -65,12 +65,7 @@ export default function Rooms() {
 
         <div className="mt-10 sm:mt-14 space-y-14 sm:space-y-20">
           {ROOMS.map((r, idx) => {
-            const imgs =
-              r.key === "private"
-                ? IMAGES.rooms.private
-                : r.key === "twin"
-                ? IMAGES.rooms.twin
-                : IMAGES.rooms.frontPrivate;
+            const imgs = r.key === "private" ? IMAGES.rooms.private : IMAGES.rooms.twin;
             return (
               <div
                 key={r.key}

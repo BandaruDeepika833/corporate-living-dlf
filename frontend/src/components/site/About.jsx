@@ -2,10 +2,10 @@ import { Building2, ShieldCheck, MapPin, Users, Sun, Sparkles } from "lucide-rea
 
 const pillars = [
   { icon: Building2, title: "Corporate Living", desc: "Designed for working professionals & students who expect professional standards." },
-  { icon: ShieldCheck, title: "Safety First", desc: "24x7 trained security, CCTV-monitored common areas and biometric access." },
+  { icon: ShieldCheck, title: "Safety First", desc: "24x7 security, CCTV-monitored common areas." },
   { icon: Users, title: "Vibrant Community", desc: "A curated community of residents from MNCs, startups and top institutes." },
-  { icon: MapPin, title: "Prime Location", desc: "Walk to DLF Phase 3 Rapid Metro; minutes from Cyber City & Udyog Vihar." },
-  { icon: Sun, title: "Natural Light", desc: "Wide openable windows and excellent ventilation in every spacious room." },
+  { icon: MapPin, title: "Prime Location", desc: "5 mins E-rickshaw to DLF Phase 3 Rapid Metro; minutes from Cyber City & Udyog Vihar." },
+  { icon: Sun, title: "Natural Light", desc: "Openable windows and excellent ventilation in every spacious room." },
   { icon: Sparkles, title: "Spotless Hygiene", desc: "Daily housekeeping with thorough bathroom & common-area sanitisation." },
 ];
 

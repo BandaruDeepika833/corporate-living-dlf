@@ -31,7 +31,6 @@ export default function Footer() {
               ["#rooms", "Rooms"],
               ["#pricing", "Pricing"],
               ["#amenities", "Amenities"],
-              ["#gallery", "Gallery"],
               ["#faq", "FAQ"],
               ["/admin/login", "Admin"],
             ].map(([href, label]) => (
