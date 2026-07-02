@@ -5,7 +5,6 @@ import About from "@/components/site/About";
 import WhyChoose from "@/components/site/WhyChoose";
 import Lifestyle from "@/components/site/Lifestyle";
 import Rooms from "@/components/site/Rooms";
-import Gallery from "@/components/site/Gallery";
 import Pricing from "@/components/site/Pricing";
 import Amenities from "@/components/site/Amenities";
 import Reviews from "@/components/site/Reviews";
@@ -25,7 +24,6 @@ export default function Landing() {
       <WhyChoose />
       <Lifestyle />
       <Rooms />
-      <Gallery />
       <Pricing />
       <Amenities />
       <Reviews />

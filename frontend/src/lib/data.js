@@ -5,45 +5,34 @@ export const IMAGES = {
   heroBuilding:
     "/main.png",
   category: {
-    private:
-      "https://images.pexels.com/photos/34574606/pexels-photo-34574606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1200",
-    twin:
-      "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1200",
-    common:
-      "https://images.unsplash.com/photo-1724582586529-62622e50c0b3?crop=entropy&cs=srgb&fm=jpg&q=85&w=1400",
-    dining:
-      "https://images.pexels.com/photos/2079246/pexels-photo-2079246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1200",
+    // Use local images placed in the public/ folder
+    private: "/single.jpeg",
+    twin: "/double.jpeg",
+    common: "/common.jpeg",
+    dining: "/dinning.jpeg",
   },
   lifestyle: {
-    gym: "https://images.pexels.com/photos/29224211/pexels-photo-29224211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-    gaming:
-      "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=1400&q=80",
-    dining:
-      "https://images.pexels.com/photos/1395967/pexels-photo-1395967.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-    lounge:
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1400&q=80",
-    laundry:
-      "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?auto=format&fit=crop&w=1400&q=80",
-    parking:
-      "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&w=1400&q=80",
-    exterior:
-      "https://images.pexels.com/photos/18153132/pexels-photo-18153132.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
+    // Use local images placed in the public/ folder for faster loading
+    gym: "/gym.jpeg",
+    // Use common area image for the gaming lounge per design request
+    gaming: "/common.jpeg",
+    dining: "/dinning.jpeg",
+    lounge: "/Lounge.jpeg",
   },
   rooms: {
     private: [
-      "https://images.pexels.com/photos/34574606/pexels-photo-34574606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-      "https://images.pexels.com/photos/6585598/pexels-photo-6585598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-      "https://images.pexels.com/photos/6585757/pexels-photo-6585757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
+      "/single.jpeg",
+      "/single1.jpeg",
+      "/single2.jpeg",
+      "/washroom.jpeg",
+      "/Washroom1.jpeg",
     ],
     twin: [
-      "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-      "https://images.pexels.com/photos/279805/pexels-photo-279805.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-      "https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-    ],
-    frontPrivate: [
-      "https://images.pexels.com/photos/6585601/pexels-photo-6585601.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-      "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
-      "https://images.pexels.com/photos/6444/pencil-typography-black-design.jpg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1400",
+      "/double.jpeg",
+      "/double1.jpeg",
+      "/double2.jpeg",
+      "/washroom.jpeg",
+      "/Washroom1.jpeg",
     ],
   },
   gallery: [
@@ -84,18 +73,7 @@ export const PRICING = [
       { label: "2 Meals + Weekend Meals", price: 34000, featured: true },
       { label: "3 Meals", price: 34500 },
     ],
-  },
-  {
-    key: "front",
-    name: "Front Side Private",
-    headline: "Premium with the best view",
-    plans: [
-      { label: "Without Meals", price: 30000 },
-      { label: "2 Meals", price: 34500 },
-      { label: "2 Meals + Weekend Meals", price: 35000, featured: true },
-      { label: "3 Meals", price: 35500 },
-    ],
-  },
+  }
 ];
 
 export const MEAL_PRICING = [
@@ -112,17 +90,17 @@ export const WHY_CHOOSE = [
   { icon: "ParkingSquare", title: "Parking" },
   { icon: "Zap", title: "Power Backup" },
   { icon: "Dumbbell", title: "Modern Gym" },
-  { icon: "Gamepad2", title: "Gaming Zone" },
+  { icon: "Gamepad2", title: "Gaming Area" },
   { icon: "Droplets", title: "RO Drinking Water" },
   { icon: "Wind", title: "Excellent Ventilation" },
-  { icon: "PanelTop", title: "Wide Openable Windows" },
+  { icon: "PanelTop", title: "Openable Windows" },
   { icon: "UtensilsCrossed", title: "Home-style Meals" },
   { icon: "ShieldCheck", title: "24x7 Security & CCTV" },
 ];
 
 export const AMENITIES = [
   { icon: "Dumbbell", title: "Gym" },
-  { icon: "Gamepad2", title: "Game Zone" },
+  { icon: "Gamepad2", title: "Game Area" },
   { icon: "Circle", title: "Snooker" },
   { icon: "TableProperties", title: "Table Tennis" },
   { icon: "Trophy", title: "Badminton" },
@@ -135,7 +113,7 @@ export const AMENITIES = [
   { icon: "Sparkles", title: "Daily Housekeeping" },
   { icon: "Droplets", title: "RO Water" },
   { icon: "Wind", title: "Ventilation" },
-  { icon: "PanelTop", title: "Wide Windows" },
+  { icon: "PanelTop", title: "Openable Windows" },
   { icon: "UtensilsCrossed", title: "Home-style Meals" },
 ];
 
@@ -145,13 +123,13 @@ export const ROOMS = [
     name: "Private Room",
     tag: "Most Popular",
     description:
-      "A fully furnished single-occupancy room designed for focus and comfort. Wide openable windows, premium bedding and ample storage.",
+      "A fully furnished single-occupancy room designed for focus and comfort. Openable windows, premium bedding and ample storage.",
     features: [
       "Single occupancy",
-      "Attached or shared washroom",
-      "Study desk & ergonomic chair",
+      "Attached washroom",
+      "Study desk & chair",
       "Spacious wardrobe & storage",
-      "AC + wide openable windows",
+      "AC + openable windows",
       "Daily housekeeping",
     ],
     starting: 29000,
@@ -164,29 +142,13 @@ export const ROOMS = [
       "Spacious twin-sharing room with separate beds, storage and study area – ideal for students and young professionals who enjoy company.",
     features: [
       "Two single beds",
-      "Individual wardrobes & desks",
-      "Attached / shared washroom",
+      "Individual wardrobes & shared desks",
+      "Attached washroom",
       "AC + ventilation",
       "Free WiFi & power backup",
       "Daily housekeeping",
     ],
     starting: 15000,
-  },
-  {
-    key: "front",
-    name: "Front Side Private",
-    tag: "Premium",
-    description:
-      "Our front-facing private rooms offer the brightest natural light and the best street view in the building, with upgraded interiors.",
-    features: [
-      "Front-facing windows",
-      "Upgraded interiors",
-      "Attached washroom",
-      "Premium mattress & linen",
-      "AC + RO water access",
-      "Priority housekeeping",
-    ],
-    starting: 30000,
   },
 ];
 
@@ -198,17 +160,17 @@ export const FAQS = [
   { q: "How much is the security deposit?", a: "A refundable security deposit equivalent to one month's rent is required at the time of booking." },
   { q: "Is electricity included in the rent?", a: "Electricity is charged separately as per actual sub-meter consumption, billed monthly at standard rates." },
   { q: "What is the notice period?", a: "A standard 30-day written notice period is required before vacating the room." },
-  { q: "Is there a lock-in period?", a: "We follow a minimum 3-month lock-in for new residents to maintain a stable community." },
+  { q: "Is there a lock-in period?", a: "We follow a minimum 1-month lock-in for new residents to maintain a stable community." },
   { q: "Are visitors allowed?", a: "Yes, family and friends are welcome in the common areas during visiting hours, with prior intimation to reception for security purposes." },
   { q: "Is parking available?", a: "Yes, secure two-wheeler parking is available within the premises. Four-wheeler parking is subject to availability." },
-  { q: "How is laundry handled?", a: "We offer in-house laundry service. Washing machines are available on common floors and pickup laundry can be arranged on request." },
+  { q: "How is laundry handled?", a: "We offer in-house laundry service. Common washing machines are available and pickup laundry can be arranged on request." },
   { q: "How frequent is housekeeping?", a: "Daily housekeeping for common areas and rooms (Mon–Sat). Bathrooms are sanitised every day." },
-  { q: "How far is the metro & Cyber City?", a: "We are just a short walk from DLF Phase 3 Rapid Metro and a 5–10 minute drive from Cyber City and Udyog Vihar." },
+  { q: "How far is the metro & Cyber City?", a: "We are just a short 5 min E-Rickshaw ride to DLF Phase 3 Rapid Metro and a 10–15 minute drive from Cyber City." },
 ];
 
 export const REVIEWS = [
   { name: "Aarav Sharma", role: "Software Engineer, MNC", text: "Easily the cleanest, most professionally run PG I've stayed in. Rooms feel like a hotel and the staff are super responsive." },
-  { name: "Priya Verma", role: "Consultant", text: "Love the location – I walk to the metro and reach Cyber City in 10 minutes. Home-style meals are a huge plus." },
-  { name: "Rohit Mehta", role: "Product Designer", text: "The gym and gaming zone make weekends genuinely enjoyable. Wide windows and natural light in every room." },
+  { name: "Priya Verma", role: "Consultant", text: "Love the location – I take an e-rickshaw to the metro and reach Cyber City in 10 minutes. Home-style meals are a huge plus." },
+  { name: "Rohit Mehta", role: "Product Designer", text: "The gym and gaming Area make weekends genuinely enjoyable.The laundry service is also great." },
   { name: "Sneha Iyer", role: "Analyst", text: "Safety, hygiene and on-time maintenance – this is what I was looking for. Highly recommend Nestro to working women." },
 ];

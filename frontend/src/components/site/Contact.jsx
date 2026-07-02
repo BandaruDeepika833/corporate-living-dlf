@@ -3,7 +3,7 @@ import { toast } from "sonner";
 import { Phone, MessageCircle, Mail, MapPin } from "lucide-react";
 import { api, BUSINESS, callLink, whatsappLink, formatApiErrorDetail } from "@/lib/api";
 
-const ROOM_TYPES = ["Private Room", "Twin Sharing", "Front Side Private"];
+const ROOM_TYPES = ["Private Room", "Twin Sharing"];
 
 export default function Contact() {
   const [form, setForm] = useState({

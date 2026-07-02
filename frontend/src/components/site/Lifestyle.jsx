@@ -3,12 +3,9 @@ import { ArrowRight } from "lucide-react";
 
 const items = [
   { key: "gym", title: "Modern Gym", text: "A fully equipped gym with cardio + strength stations, perfect for daily workouts.", img: IMAGES.lifestyle.gym },
-  { key: "gaming", title: "Gaming Lounge", text: "PS, snooker, table tennis & board games to unwind after a long workday.", img: IMAGES.lifestyle.gaming },
+  { key: "gaming", title: "Gaming Lounge", text: "Snooker, table tennis & board games to unwind after a long workday.", img: IMAGES.lifestyle.gaming },
   { key: "dining", title: "Dining Area", text: "Hygienic, well-lit dining hall serving home-style meals and à la carte options.", img: IMAGES.lifestyle.dining },
   { key: "lounge", title: "Community Lounge", text: "Bright lounges to network, read or watch the big game with neighbours.", img: IMAGES.lifestyle.lounge },
-  { key: "laundry", title: "Laundry Area", text: "In-house laundry with washing machines and dedicated drying zones.", img: IMAGES.lifestyle.laundry },
-  { key: "parking", title: "Parking", text: "Secure two-wheeler parking inside the premises; four-wheeler on request.", img: IMAGES.lifestyle.parking },
-  { key: "exterior", title: "Exterior", text: "A clean, modern facade in a quiet residential street of DLF Phase 3.", img: IMAGES.lifestyle.exterior },
 ];
 
 export default function Lifestyle() {
