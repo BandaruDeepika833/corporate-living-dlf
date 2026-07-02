@@ -3,7 +3,7 @@
 
 export const IMAGES = {
   heroBuilding:
-    "https://images.pexels.com/photos/35339499/pexels-photo-35339499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=1100&w=1900",
+    "/main.png",
   category: {
     private:
       "https://images.pexels.com/photos/34574606/pexels-photo-34574606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1200",
